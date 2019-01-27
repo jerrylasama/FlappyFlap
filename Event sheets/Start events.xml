@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Start events</name>
+    <events>
+        <event-block sid="8450924142424696">
+            <conditions>
+                <condition id="17" name="On tap object" sid="529659963025359" type="Touch">
+                    <param id="0" name="Object">PlayBtnImg</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="1321255376915732" type="System">
+                    <param id="0" name="Layout">Game</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="670261627604632">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="121355712055098" type="System" />
+            </conditions>
+            <actions>
+                <action id="4" name="Preload" sid="780674348552204" type="Audio">
+                    <param id="0" name="Audio file">intro</param>
+                </action>
+                <action id="0" name="Play" sid="823051478549110" type="Audio">
+                    <param id="0" name="Audio file">intro</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="4" name="Preload" sid="212249264743995" type="Audio">
+                    <param id="0" name="Audio file">jump1</param>
+                </action>
+                <action id="4" name="Preload" sid="160157716440374" type="Audio">
+                    <param id="0" name="Audio file">jump2</param>
+                </action>
+                <action id="4" name="Preload" sid="376282988220572" type="Audio">
+                    <param id="0" name="Audio file">knock</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="901286933001474">
+            <conditions />
+            <actions />
+        </event-block>
+    </events>
+</c2eventsheet>
