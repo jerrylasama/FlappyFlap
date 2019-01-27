@@ -1,2 +1,2 @@
 # FlappyFlap
-Just another Flappy Bird but with HP
+Just another Flappy Bird but with Health Point
